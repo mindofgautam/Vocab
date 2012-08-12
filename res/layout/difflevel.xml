@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+   android:background="@drawable/back"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:id="@+id/selectleveltextView1" android:layout_width="wrap_content" android:textSize="35dip" android:text="@string/diffleveltitle"></TextView>
+    <AbsoluteLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/absoluteLayout1">
+     <RadioGroup  android:layout_width="fill_parent"  
+      android:id="@+id/rg1"
+      android:layout_height="wrap_content"   android:orientation="vertical" android:layout_y="20dip" android:layout_x="20dip">   
+    <RadioButton    android:id="@+id/lev1"    android:layout_width="wrap_content"    android:layout_height="wrap_content"    android:text="Easy" />   
+    <RadioButton    android:id="@+id/lev2"    android:layout_width="wrap_content"    android:layout_height="wrap_content"    android:text="Medium" />   
+    <RadioButton    android:id="@+id/lev3"    android:layout_width="wrap_content"    android:layout_height="wrap_content"    android:text="Hard" /> 
+     </RadioGroup>
+    </AbsoluteLayout>
+</LinearLayout>

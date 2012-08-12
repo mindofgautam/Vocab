@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout1">
+        <TextView android:layout_height="wrap_content" android:id="@+id/addwordtitle" android:textSize="35dip" android:layout_width="wrap_content" android:text="@string/addword1title" android:layout_x="65dip" android:layout_y="28dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout2">
+        <TextView android:layout_height="wrap_content" android:layout_x="6dip" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="Word" android:textSize="18dip" android:layout_y="27dip" android:hapticFeedbackEnabled="true" android:textStyle="bold|normal"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText1" android:layout_width="150dip" android:layout_x="130dip" android:layout_y="15dip" android:layout_height="38dip"></EditText>
+    </AbsoluteLayout>
+    
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout3">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:text="Meaning" android:textSize="18dip" android:layout_y="27dip" android:textStyle="bold|normal" android:layout_x="4dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText2" android:layout_width="150dip" android:layout_y="15dip" android:layout_x="130dip" android:layout_height="38dip"></EditText>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout4">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_width="wrap_content" android:text="Form" android:textSize="18dip" android:layout_y="27dip" android:textStyle="bold|normal" android:layout_x="4dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText3" android:layout_width="150dip" android:layout_y="15dip" android:layout_x="130dip" android:layout_height="38dip"></EditText>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout5">
+        <TextView android:layout_height="wrap_content" android:layout_x="5dip" android:id="@+id/textView5" android:layout_width="wrap_content" android:text="Pronunciation" android:textSize="18dip" android:layout_y="27dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText4" android:layout_width="150dip" android:layout_y="15dip" android:layout_x="130dip" android:layout_height="38dip"></EditText>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout6">
+        <TextView android:layout_height="wrap_content" android:layout_x="5dip" android:id="@+id/textView6" android:layout_width="wrap_content" android:text="Synonyms" android:textSize="18dip" android:layout_y="27dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText5" android:layout_width="150dip" android:layout_y="15dip" android:layout_x="130dip" android:layout_height="38dip"></EditText>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout7">
+        <TextView android:layout_height="wrap_content" android:layout_x="2dip" android:id="@+id/textView7" android:layout_width="wrap_content" android:text="Antonyms" android:textSize="18dip" android:layout_y="27dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText6" android:layout_width="150dip" android:layout_y="15dip" android:layout_x="130dip" android:layout_height="38dip"></EditText>
+    </AbsoluteLayout>
+	<AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout8">
+        <TextView android:layout_height="wrap_content" android:layout_x="2dip" android:id="@+id/textView8" android:layout_width="wrap_content" android:text="Related-words" android:textSize="18dip" android:layout_y="27dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText7" android:layout_width="150dip" android:layout_height="38dip" android:layout_y="15dip" android:layout_x="130dip"></EditText>
+    </AbsoluteLayout>
+<AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout9">
+        <TextView android:layout_height="wrap_content" android:layout_x="2dip" android:id="@+id/textView9" android:layout_width="wrap_content" android:text="Usage" android:textSize="18dip" android:layout_y="27dip"></TextView>
+        <EditText android:text="" android:id="@+id/aeditText8" android:layout_width="150dip" android:layout_height="38dip" android:layout_y="15dip" android:layout_x="130dip"></EditText>
+    </AbsoluteLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>

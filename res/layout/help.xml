@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+   android:background="@drawable/back"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout1" android:layout_height="wrap_content">
+        <TextView android:id="@+id/helptextView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="35dip" android:text="@string/helptitle" android:layout_x="117dip" android:layout_y="10dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout2" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25dip" android:text="Menu Items" android:layout_x="86dip" android:layout_y="9dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout3" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Search" android:layout_y="12dip" android:layout_x="18dip" android:textSize="17dip"></TextView>
+        <TextView android:id="@+id/textView7" android:layout_width="180dip" android:layout_height="wrap_content" android:text="Search button allows the user to search a particular word from the database." android:layout_x="123dip" android:layout_y="20dip" android:textSize="15dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout4" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Word List" android:layout_y="17dip" android:textSize="17dip" android:layout_x="18dip"></TextView>
+        <TextView android:id="@+id/textView8" android:layout_height="wrap_content" android:text="Wordlist displays the entire list of words available in the database, the user can get details by clicking the word." android:layout_width="180dip" android:layout_x="123dip" android:layout_y="24dip" android:textSize="15dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout5" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flash Cards" android:layout_y="17dip" android:textSize="17dip" android:layout_x="18dip"></TextView>
+        <TextView android:id="@+id/textView9" android:layout_width="180dip" android:layout_height="wrap_content" android:text="Traditional Flash Cards consisting of 1000 plus words." android:layout_x="123dip" android:layout_y="24dip" android:textSize="15dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout6" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Take Test" android:layout_y="16dip" android:textSize="17dip" android:layout_x="18dip"></TextView>
+        <TextView android:id="@+id/textView10" android:layout_height="wrap_content" android:text="This option allows the user to test his knowledge of GRE words. The user needs to create a Profile before attending the test." android:layout_width="180dip" android:layout_x="123dip" android:layout_y="24dip" android:textSize="15dip"></TextView>
+    </AbsoluteLayout>
+    
+    
+</LinearLayout>
+</ScrollView>

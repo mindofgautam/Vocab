@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Vocab!</string>
+    <string name="app_name">Vocab</string>
+    <string name="bt1">Search a Word</string>
+    <string name="bt2">Add a Word</string>
+    <string name="bt2two">Flash Cards</string>
+    <string name="bt3">Take Test</string>
+    <string name="bt4">Settings </string>
+    <string name="bt5">Exit</string>
+    <string name="bt22">Word List</string>
+    <string name="search1title">Search a Word</string>
+   <string name="addword1title">Add a Word</string>
+   <string name="settings1title">Settings</string>
+   <string name="result1title">Result</string>
+   <string name="result1sub">Score</string>
+   <string name="bt6">Begin Test</string>
+   <string name="bt7">View History</string>
+   <string name="test1title">Test</string>
+   <string name="test2button">Next</string>
+   <string name="result1button1">Compare</string>
+   <string name="statshead">Statistics</string>
+   <string name="statstab1">Test No.</string>
+   <string name="statstab2">Score</string>
+   <string name="test1bet2head">Profile</string>
+   <string name="betbut">Am a New User</string>
+   <string name="betbut2">Login</string>
+   <string name="helptitle">Help</string>
+   <string name="newusertitle">Create Profile</string>
+   <string name="newuserbut1">Capture Me!!</string>
+   <string name="newuserbut2">Create Profile</string>
+   <string name="wordlisttitle1">Words</string>
+   <string name="diffleveltitle">Select Level</string>
+   <string name="deleteprofile">Delete Profile</string>
+   <color name="dark1">#353325</color>
+   <color name="light1">#665E41</color>
+   <color name="bg1">#EEFFF4</color>
+   <color name="dark11">#FFFFC8</color>
+   <color name="dark2">#0053FF</color>
+   <color name="light2">#4EC3FF</color>
+   <color name="bg2">#A2FF9B</color>
+   <color name="bg22">#FFFFFF</color>
+   <color name="trydark">#FF9E02</color>
+    <color name="trylight">#EF0000</color>
+     <color name="trybg">#000000</color>
+     <color name="bdark">#00AAFF</color>
+      <color name="blight">#81D8FF</color>
+       <color name="bbg">#000000</color>
+       <color name="tc">#FFFFD0</color>
+       <color name="wid">#FFFFFF</color>
+       <color name="rred">#FF0000</color>
+<string name="category_prompt">Choose a Category</string> 
+   <string-array name="category_array">    
+       <item>Normal</item>  
+             <item>GRE</item>    
+                 <item>Mixed</item> 
+                  </string-array>
+   
+<string name="complexity_prompt">Choose a Complexity</string>
+    <string-array name="complexity_array">
+            <item>Sandbox</item>
+                    <item>Hard</item>
+                            <item>Expert</item>
+   </string-array>   
+
+
+
+</resources>

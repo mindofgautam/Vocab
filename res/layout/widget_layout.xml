@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:id="@+id/widget"
+android:background="@drawable/wid"
+android:layout_gravity="center"
+android:layout_width="166dip" android:layout_height="82dip">
+    <AbsoluteLayout android:id="@+id/absoluteLayout1" android:layout_height="wrap_content" android:layout_width="145dip">
+        <TextView android:layout_height="wrap_content" android:textStyle="bold" android:text="Word" android:id="@+id/widgetword" android:layout_x="9dip" android:layout_y="6dip" android:layout_width="166dip" android:textColor="@color/wid"></TextView>
+        
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout2" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:text="Meaning" android:id="@+id/widgetmeaning" android:layout_x="10dip" android:layout_y="0dip" android:layout_width="150dip" android:textColor="@color/wid"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout3" android:layout_height="wrap_content">
+    </AbsoluteLayout>
+
+
+</LinearLayout>

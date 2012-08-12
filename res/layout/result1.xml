@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:background="@drawable/back"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <AbsoluteLayout android:id="@+id/absoluteLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    </AbsoluteLayout>
+    <AbsoluteLayout android:id="@+id/absoluteLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/result1textView2" android:textSize="55dip" android:text="@string/result1sub" android:layout_y="104dip" android:layout_x="55dip"></TextView>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:id="@+id/absoluteLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" 
+        android:background="@drawable/btn"
+        android:layout_width="250dip" android:id="@+id/result1button1" android:layout_x="29dip" android:layout_y="64dip" android:text="@string/result1button1"></Button>
+    </AbsoluteLayout>
+</LinearLayout>

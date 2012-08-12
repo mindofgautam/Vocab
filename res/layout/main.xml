@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    >
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout1">
+        <TextView android:layout_height="wrap_content" android:id="@+id/maintextView1" android:textSize="50dip" android:layout_width="wrap_content" android:text="@string/app_name" android:layout_x="85dip" android:layout_y="21dip"></TextView>
+        <ImageButton android:id="@+id/help3" android:background="@drawable/tryhelp" android:layout_width="35dip" android:layout_height="35dip" android:layout_x="278dip" android:layout_y="8dip"></ImageButton>
+        <ImageButton android:id="@+id/aboutus" android:background="@drawable/usabou" android:layout_width="35dip" android:layout_height="35dip" android:layout_x="6dip" android:layout_y="9dip"></ImageButton>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout2">
+        <Button android:layout_height="wrap_content" android:id="@+id/button1" android:layout_width="200dip" android:text="@string/bt1" android:layout_x="60dip" 
+        android:background="@drawable/btn" android:layout_y="26dip"></Button>
+    </AbsoluteLayout>
+    
+    <AbsoluteLayout android:layout_height="wrap_content" 
+    
+    android:layout_width="fill_parent" android:id="@+id/absoluteLayout22">
+        <Button android:layout_height="wrap_content" 
+        android:background="@drawable/btn"
+        android:id="@+id/button22" android:layout_width="200dip" android:text="@string/bt22" android:layout_x="60dip" android:layout_y="26dip"></Button>
+    </AbsoluteLayout>
+    
+    
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout3">
+        <Button android:layout_height="wrap_content" 
+        android:background="@drawable/btn"
+        android:id="@+id/button2" android:layout_width="200dip" android:layout_x="60dip" android:layout_y="26dip" android:text="@string/bt2two"></Button>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout4">
+        <Button android:layout_height="wrap_content" 
+        android:background="@drawable/btn"
+        android:id="@+id/button3" android:layout_width="200dip" android:text="@string/bt3" android:layout_x="60dip" android:layout_y="26dip"></Button>
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout5">
+    </AbsoluteLayout>
+    <AbsoluteLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/absoluteLayout6">
+        <Button android:layout_height="wrap_content" 
+        android:background="@drawable/btn"
+        android:id="@+id/button5" android:layout_width="200dip" android:text="@string/bt5" android:layout_x="60dip" android:layout_y="26dip"></Button>
+    </AbsoluteLayout>
+</LinearLayout>
+</ScrollView>
